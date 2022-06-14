@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+seaborn = "*"
+torch = "*"
+pytorch-lightning = "*"
+jupyterlab = "*"
+scikit-learn = "*"
+gensim = "*"
+nltk = "*"
+pytorch-ignite = "*"
+ignite = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
