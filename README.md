@@ -39,3 +39,9 @@ Should be changed adequately to reflect the file path of the machine running the
 ### Bert 
 
 ### Transformers
+
+### TransformerLogReg
+The folder contains Jupyter notebook files following the order to reproduce the result. 
+1. Reprocessing data, split data function. [Data](https://drive.google.com/drive/folders/11-7K9zOfxZUY7-fAabRZjjMyutwywGXb?usp=sharing) can be downloaded here.
+2. Train and predict with Transformers + Huggingface implimented with Pytorch.
+3. Fine-tuning Logistic Regression function and predict the final predictions.
