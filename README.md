@@ -8,16 +8,16 @@
 ### Machine Learning method with TF-IDF
 The notebook related to classical machine learning methods contains an SVM and a Random Forest applied on TF-IDF representations with all the executed cells. Rerunning the notebook requires the execution of the Preprocessing notebook. Furthermore, the following global variables have to be updated with the data and model paths on the local machine to make the notebook work properly.
 
-'''python
+```python
 DATA_PATH = 'twitter-datasets/{}'
 MODEL_PATH = 'models/{}'
-'''
+```
 
 There is even the option to execute the notebook without training by uploading pre-trained models and disabling the training parts by setting to False the following global variable.
 
-'''python
+```python
 is_train_enabled = True
-'''
+```
 
 ### W2V
 
